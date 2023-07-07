@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vendual" >
+    package="com.example.easySale" >
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -27,7 +27,7 @@
         </provider>
 
         <activity
-            android:name=".activities.LoginActivity"
+            android:name="com.example.easySale.activities.LoginActivity"
             android:screenOrientation="unspecified"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true" >
@@ -39,7 +39,7 @@
         </activity>
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.example.easySale.activities.MainActivity"
             android:screenOrientation="unspecified"
             android:configChanges="orientation|screenSize|keyboardHidden"/>
 
