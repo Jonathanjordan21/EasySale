@@ -1,0 +1,54 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvAccount"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    app:cardCornerRadius="21dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:background="@android:color/transparent"
+    android:layout_marginTop="12dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/cardview_stroke"
+        android:foregroundTint="@color/grey"
+        >
+
+        <ImageView
+            android:id="@+id/ivDragAcc"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_drag_indicator_24"
+            android:layout_gravity="start|center"
+            android:padding="6dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="-18dp"
+            android:src="@drawable/pinclipart_com_empty_wallet_clipart_778749"
+            android:layout_gravity="start|center"
+            android:padding = "12dp"
+            />
+
+        <TextView
+            android:id="@+id/tvAccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_200"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginStart="3dp"
+            android:text="Wallet's name"
+            android:layout_gravity="center"
+            android:gravity="center|start"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:weightSum="29">
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="13"
+        android:layout_gravity="center|start"
+        android:textColor="@color/black"
+        android:text="Item Name "
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|start"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:scrollHorizontally="false"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:layout_weight="6"
+        android:layout_marginEnd="2dp"
+        android:text="Rp 10.000.000"
+        android:textColor="@color/black"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvPriceQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|start"
+        android:textColor="@color/black"
+        android:layout_weight="7"
+        android:text="Rp 1.000.000.000"
+        android:textSize="12sp"/>
+
+
+</LinearLayout>

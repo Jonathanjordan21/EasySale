@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="250dp"
+    android:padding="12dp"
+    android:background="@drawable/vecteezy_background_retro_futurism_background_vg0221_ai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end|top">
+
+        <TextView
+            android:id="@+id/tvClosePdfMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/text_icon_close"
+            android:gravity="center"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etPdfMenuInputTitle"
+        android:textColor="@color/cream"
+        android:textColorHint="@color/grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="21sp"
+        android:gravity="center"
+        android:hint="@string/title_of_the_menu"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tvPdfMenuInputLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+
+        android:ems="10"
+        android:textStyle="bold"
+        android:drawablePadding="16dp"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/choose_at_most_4_labels_categories"
+        android:importantForAutofill="no"
+        app:drawableEndCompat="@android:drawable/arrow_down_float" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConfirmPdfMenu"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/neon_stroke"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:text="@string/confirm"/>
+
+
+</LinearLayout>

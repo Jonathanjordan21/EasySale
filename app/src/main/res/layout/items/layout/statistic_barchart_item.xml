@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+        <TextView
+            android:id="@+id/tvBarChartBg"
+            android:layout_width="411dp"
+            android:layout_height="60dp"
+            android:background="@color/green"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBarChartLabelIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:cardCornerRadius="100000dp"
+            android:clickable="true"
+            android:layout_margin="6dp"
+            android:layout_gravity="center|start"
+            android:backgroundTint="@color/white"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/ivBarChartLabelIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp"
+                android:layout_gravity="center|start"
+                android:src="@drawable/ic_baseline_label_24"
+                app:tint="@color/black" />
+        </androidx.cardview.widget.CardView>
+
+        
+        <TextView
+            android:id="@+id/tvBarChartLabel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:layout_marginStart="52dp"
+            android:layout_weight="2"
+            android:text="LABEL"
+            android:layout_gravity="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="12dp"
+            />
+
+        <TextView
+            android:id="@+id/tvBarChartPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PRICE"
+            android:layout_gravity="center"
+            android:gravity="end|center"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="12dp" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.cardview.widget.CardView>

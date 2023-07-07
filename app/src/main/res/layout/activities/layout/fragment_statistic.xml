@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Statistic"
+    android:background="@drawable/purple_mountain">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        >
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapseStats"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@android:color/transparent"
+                >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnGeneratePdfReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:background="@drawable/neon_stroke"
+                    android:textColor="@color/cream"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:clickable="true"
+                    android:text="@string/generate_report_pdf"
+                    android:focusable="true" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/reportType"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <AutoCompleteTextView
+                        android:id="@+id/acReport"
+                        android:gravity="start|center"
+                        android:background="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="none"
+                        android:text="Daily Report"
+                        android:textSize="27dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/vp2Stats"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:background="@color/black"
+                    />
+                <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+                    android:id="@+id/dots_indicator_stats"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:dotsColor="@color/cream"
+                    app:dotsCornerRadius="8dp"
+                    app:dotsSize="12dp"
+                    app:dotsSpacing="6dp"
+                    app:dotsWidthFactor="2.5"
+                    app:selectedDotColor="@color/neon_blue"
+                    android:layout_gravity="center|bottom"
+                    android:layout_margin="12dp"
+                    app:progressMode="true"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/tvFragmentBarChartUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/black"
+                    android:ems="3"
+                    android:height="0dp"
+                    android:elevation="1dp"
+                    android:layout_marginTop="21dp"
+                    android:textColor="@color/brown"
+                    android:gravity="center"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarStats"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:menu="@menu/search_filter_toolbar"
+                android:background="@android:color/transparent"
+                />
+
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/green_mountain"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <TextView
+            android:id="@+id/tvFragmentBarChart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/black"
+            android:textColor="@color/brown"
+            android:gravity="center"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/linearStats"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_anchor="@id/tvFragmentBarChart"
+            app:layout_anchorGravity="bottom"
+            android:layout_marginBottom="56dp"
+            android:orientation="vertical">
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabStats"
+
+                android:layout_width="match_parent"
+                android:background="@android:color/holo_green_light"
+                android:layout_height="wrap_content"/>
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vp2StatsBarChart"
+                app:layout_anchor="@id/tabStats"
+                app:layout_anchorGravity="bottom|start"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:id="@+id/svFilter"
+            android:visibility="gone"
+            app:layout_anchor="@id/linearStats"
+            app:layout_anchorGravity="bottom|end"
+            android:layout_marginBottom="48dp"
+            android:fillViewport="true"
+            android:layout_width="210dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginTop="48dp"
+            android:paddingStart="12dp"
+            android:background="@color/green"
+            android:orientation="vertical"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <!--    <LinearLayout-->
+            <!--        android:id="@+id/LinearLayoutFilter"-->
+            <!--        -->
+            <!--        android:layout_width="210dp"-->
+            <!--        android:layout_height="match_parent"-->
+            <!--        android:layout_gravity="end"-->
+            <!--        android:layout_marginTop="36dp"-->
+            <!--        android:paddingStart="18dp"-->
+            <!--        android:paddingEnd="12dp"-->
+            <!--        android:background="@color/orange"-->
+            <!--        android:orientation="vertical"-->
+            <!--        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">-->
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutFilter"
+                android:paddingEnd="12dp"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="21dp"
+                    android:text="@string/filter"
+                    android:gravity="start"
+                    android:textSize="36sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/price_limit"
+                    android:gravity="start"
+                    android:textSize="21sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/etPriceStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:hint="@string/price_start"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to"
+                    android:gravity="start"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/etPriceEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/price_end"
+                    android:inputType="numberDecimal|numberSigned"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pick_date"
+                    android:gravity="start"
+                    android:textSize="21sp"
+                    android:textColor="@color/white"
+                    android:padding="6dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvPickDateStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:background="@color/white"
+                    android:hint="@string/date_start"
+                    android:inputType="date"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="6dp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tvPickDateEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:background="@color/white"
+                    android:hint="@string/date_end"
+                    android:inputType="date"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose_labels"
+                    android:gravity="start"
+                    android:textSize="21sp"
+                    android:textColor="@color/white"
+                    android:padding="6dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvStatsLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/grey"
+                    android:ems="10"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="bold"
+                    android:drawablePadding="16dp"
+                    android:textSize="20sp"
+                    android:padding="8dp"
+                    android:gravity="center"
+                    android:background="@android:drawable/editbox_background"
+                    android:hint="@string/no_category"
+                    android:importantForAutofill="no"
+                    app:drawableEndCompat="@android:drawable/arrow_down_float" />
+
+                <CheckBox
+                    android:id="@+id/cbMerge"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/merge_identical_name"/>
+
+
+
+                <CheckBox
+                    android:id="@+id/cbHideProduct"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:textColor="@color/white"
+                    android:text="@string/hide_deleted_edited_products"/>
+
+                <CheckBox
+                    android:id="@+id/cbHideLabel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="8dp"
+                    android:text="@string/hide_deleted_edited_labels"/>
+
+                <Button
+                    android:id="@+id/btnApplyFilter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Apply"
+                    android:backgroundTint="@color/dark_aqua"
+                    android:layout_marginBottom="21dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

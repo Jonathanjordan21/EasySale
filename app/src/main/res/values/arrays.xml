@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--    REGEX -->
+<!--    Line does not Contain "hede" ^((?!hede).)*$ -->
+<!--    Word does not Contain "hede" ((?!hede).)*$ -->
+<!--    Line does not start with "hede" ^(?!hede).*$ -->
+<!--    Word does not start with "hede" (?!hede).*$ -->
+<!--    FastHand HotKey ((?!>#).)*$-->
+
+
+
+<resources>
+    <array name="report_type">
+        <item>@string/daily_report</item>
+        <item>@string/monthly_report</item>
+        <item>@string/annual_report</item>
+    </array>
+
+    <array name="list_of_day_week">
+        <item>@string/monday</item>
+        <item>@string/tuesday</item>
+        <item>@string/wednesday</item>
+        <item>@string/thursday</item>
+        <item>@string/friday</item>
+        <item>@string/saturday</item>
+        <item>@string/sunday</item>
+    </array>
+
+    <array name="color_palette">
+        <item> @color/purple_200</item>
+        <item> @color/purple_500</item>
+        <item> @color/purple_700</item>
+        <item> @color/teal_200</item>
+        <item> @color/teal_700</item>
+        <item> @color/aqua_light</item>
+        <item> @color/red</item>
+        <item> @color/grey</item>
+        <item> @color/dark_green</item>
+        <item> @color/dark_aqua</item>
+        <item> @color/dark_teal</item>
+        <item> @color/blue_ice</item>
+        <item> @color/blue_light</item>
+        <item> @color/blue_dark</item>
+        <item> @color/green</item>
+        <item> @color/green_neon</item>
+        <item> @color/orange</item>
+        <item> @color/blue</item>
+        <item> @color/neon_blue</item>
+        <item> @color/yellow_neon</item>
+        <item> @color/pink_soft</item>
+        <item> @color/cream</item>
+        <item> @color/pink_hard</item>
+        <item> @color/brown</item>
+    </array>
+
+
+</resources>

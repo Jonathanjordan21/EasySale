@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/statistic"
+        android:id="@+id/statistic"
+        android:icon="@drawable/ic_baseline_insert_chart_24"/>
+    <item android:title="@string/home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item android:title="@string/label"
+        android:id="@+id/label"
+        android:icon="@drawable/ic_baseline_label_24"/>
+    <item android:title="@string/receipt"
+        android:id="@+id/receipt"
+        android:icon="@drawable/ic_baseline_list_alt_24"/>
+
+</menu>

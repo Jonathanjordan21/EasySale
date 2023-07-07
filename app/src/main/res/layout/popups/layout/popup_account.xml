@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="12dp"
+    android:paddingStart="12dp"
+    android:paddingBottom="12dp"
+    android:orientation="vertical"
+    android:background="@color/teal_700">
+    <LinearLayout
+        android:paddingTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/create_wallet"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="27sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvAccCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:background="@drawable/text_icon_close"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_gravity="end|center"
+        android:gravity="end|center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/etAccName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/pink_soft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/enter_product_s_name"
+            android:importantForAutofill="no" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnConfirmAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="@string/confirm"/>
+
+</LinearLayout>

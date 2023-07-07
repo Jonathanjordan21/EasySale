@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearRev"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/neon_blue"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="21dp"
+    tools:context=".fragments.Revenue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="21dp"
+
+        android:backgroundTint="@android:color/transparent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tvRevTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/monthly_revenue"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="36sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvRevSymbol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="Rp"
+                android:textStyle="bold"
+                android:layout_marginEnd="6dp"
+                android:textColor="@color/red"
+                android:textSize="36sp"
+                />
+            <TextView
+                android:id="@+id/tvRevPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="6dp"
+                android:text="0.00"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:textSize="36sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

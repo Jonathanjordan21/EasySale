@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/background_cloud.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/background_sunset.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/blue_mountain.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/button_main.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/button_scroll_down.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/button_vend_item.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/cardview_stroke.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/custom_main_color.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/fragment_slider.xml" value="0.1109375" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/green_mountain.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/label_menu.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/main_background.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/neon_stroke.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/orange_mountain.xml" value="0.18888888888888888" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/rect_close_icon.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/search_bar.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/text_icon_close.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/top_menu.xml" value="0.140625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/vend_background.xml" value="0.21435897435897436" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/drawable/yellow_trophy.xml" value="0.18703703703703703" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout-v28/color_item.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/drawable/yin_yang.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_accounts.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_label.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_ocr.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_receipt.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_receipt_pdf.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_report_pdf.xml" value="0.1" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_revenue.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_statistic.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/fragment_vend_list.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activities/layout/login_activity.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/color_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/filter_label_dropdown.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_bar_chart.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_filter_search.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_label.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_line_chart.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_main_menu.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_pie_chart.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_statistic.xml" value="0.1" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragment_vend_list.xml" value="0.1" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/fragment_any_chart.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_any_chart.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_bar_chart.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_filter_search.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_line_chart.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_mp_bar_chart.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_ocr.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_pie_chart.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_receipt_pdf.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_revenue.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/fragments/layout/fragment_vend_list.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/account_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/color_item.xml" value="0.10729166666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/filter_label_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/icon_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/label_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/pdf_menu_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/purchase_pdf.xml" value="0.5" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/purchase_pdf_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/receipt_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/statistic_barchart_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/summary_receipt_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/vend_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/vend_list_icon_item.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/items/layout/vend_list_name_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/label_item.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/miscs/layout/default_text_view.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/miscs/layout/filter_label_dropdown.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/miscs/layout/menu_items_pdf.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/miscs/layout/menu_pdf.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/miscs/layout/report_dropdown.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/miscs/layout/report_pdf.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_add_label.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_add_new.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_color.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_delete.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_edit.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_edit_label.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_new_label.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popup_sales.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_account.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_add_new.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_color.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_delete.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_edit.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_edit_label.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_filter.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_filter_label.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_filter_stats_chart.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_label_icon.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_pdf_menu.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_report_pdf.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_sales.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/popups/layout/popup_vend_list.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/layout/vend_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/menu/bottom_navbar_menu.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/menu/filter_label_dropdown.xml" value="0.2015625" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/menu/search_filter_toolbar.xml" value="0.22" />
+        <entry key="..\:/Users/jonat/AndroidStudioProjects/Vendual/app/src/main/res/menu/statistic_drawer_upper_menu.xml" value="0.2015625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_15_PREVIEW" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
